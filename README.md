@@ -1,16 +1,63 @@
-# desafio
+# 🐶 Dogject
 
-A new Flutter project.
+**Dogject** é um aplicativo Flutter divertido e educativo que ensina conceitos de **Programação Orientada a Objetos (POO)** com imagens aleatórias de cachorros!  
 
-## Getting Started
+A cada clique no botão “Próxima Lição”, você aprende um novo conceito de POO com analogias caninas e vê um doguinho diferente para alegrar o estudo 🐾.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ Imagens aleatórias de cachorros (via [dog.ceo API](https://dog.ceo/dog-api/))
+- ✅ Explicações divertidas sobre conceitos de POO
+- ✅ Som de latido ao clicar no botão (Em breve)
+- ✅ Estrutura de projeto com **MVVM + Provider**
+- ✅ UI responsiva e amigável
+- ✅ Código limpo e modularizado
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Pré-requisitos
+
+- Flutter SDK (3.x ou superior)
+- Dart SDK
+- Android Studio ou VSCode com plugins Flutter/Dart
+- Dispositivo/emulador configurado
+
+---
+
+## 🛠️ Como rodar o projeto localmente
+
+### 1. Clone este repositório
+
+Primeiro, clone o projeto para sua máquina local usando Git:
+
+```bash
+git clone git@github.com:marcosanf/dogjects.git
+```
+
+### 2. Navegue até o diretório do projeto
+
+Entre na pasta que você acabou de clonar:
+
+```bash
+cd dogject
+```
+
+### 3. Instale as dependências
+
+Execute o comando abaixo para baixar todas as dependências listadas no arquivo `pubspec.yaml`:
+
+```bash
+flutter pub get
+```
+
+
+### 4. Execute o aplicativo
+
+Agora você está pronto para rodar o Dogject! Use o seguinte comando no seu terminal:
+
+```bash
+flutter run
+```
+
