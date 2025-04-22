@@ -1,5 +1,5 @@
 import 'package:desafio/api.dart';
-import 'package:desafio/model.dart';
+import 'package:desafio/domain/dog.dart';
 import 'package:flutter/material.dart';
 
 void main() {
